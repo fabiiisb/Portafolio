@@ -1,0 +1,94 @@
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    color:rgb(255, 255, 255);
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/background-login.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+    height: 100vh;
+    overflow-y:hidden;   
+}
+input{
+    color: rgb(255, 255, 255);
+    background-color: #141414;
+    padding: 0% 11px;
+    border: 0;
+    outline: none;
+    font-weight: bold;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: 7px 0px;
+    border-radius: 2px ;
+    font-size: 1em;
+    resize: none;
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    
+    margin-bottom: 30px;
+    
+}
+
+input::placeholder{
+    color: rgba(177, 177, 177, 0.87);  
+     
+}
+
+input:focus{
+   border-bottom: 2px solid rgb(202, 202, 202);
+   
+}
+
+
+
+
+
+
+
+.button{
+  position: relative;
+  background: #141414;
+  border: 0;
+  padding: 14px 42px;
+  border-radius: 2px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-weight: 800;
+  font-weight: bold;
+  font-size: 14px;
+  color:rgba(177, 177, 177, 0.87); 
+  letter-spacing: .2em;
+  box-shadow: 0 8px 32px rgba(#000,.2);
+  transition: all .02s ease;
+  width: 300px;
+  height: 50px;
+  
+}
+
+.button:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -200%;
+    width: 200%;
+    height: 100%;
+    transform: skewX(-20deg);
+    background-image: linear-gradient(to right, transparent, rgba(255,255,255,0.3), transparent);
+    
+  }
+ 
+ .button:active {
+    transform: translateY(1px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    color: rgb(212, 212, 212);
+  }
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{display:none;
+}
+

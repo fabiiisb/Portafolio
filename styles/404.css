@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+
+    background-image: url("../img/background-granulado.svg");
+    background-color: #131313;
+    color:rgb(255, 255, 255);
+    font-family: 'Secular One', sans-serif;
+    font-size: 30px;
+}
+
+lottie-player{
+    height: 50vh;
+    width: 100vw;
+
+}
+p{
+    
+    text-align: center;
+    margin-top: 50px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+a i{
+    font-size: 23px;
+}
+a{
+
+color:#7A84DB;
+position: relative;
+margin: 0 auto;
+display: block;
+text-align: center;
+margin-top: 60px;
+text-decoration: none;
+
+
+}
+
+a:hover{
+   color: #a1a9f0;
+}
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{display:none;
+}
